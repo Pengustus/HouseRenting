@@ -1,4 +1,5 @@
-﻿using HouseRenting.Data.Data.Entities;
+﻿using HouseRenting.Data.Data.Configurations;
+using HouseRenting.Data.Data.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
