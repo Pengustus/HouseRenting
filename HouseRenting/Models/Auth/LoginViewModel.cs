@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Reflection.PortableExecutable;
+using System.Runtime.CompilerServices;
 
 namespace HouseRenting.Models.Auth
 {
@@ -10,7 +12,9 @@ namespace HouseRenting.Models.Auth
         [Required]
         [StringLength(80, MinimumLength = 6, ErrorMessage = "Invalid Password")]
         public string Password { get; set; }
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
         public bool RememberMe { get; set; }
     }
 }
-

@@ -10,8 +10,4 @@
     <ProjectReference Include="..\HouseRenting.Data\HouseRenting.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Auth\" />
-  </ItemGroup>
-
 </Project>

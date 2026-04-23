@@ -51,6 +51,6 @@ namespace HouseRenting.Data.Data.Entities
         public IdentityUser? Renter { get; set; }
 
 
-
+        public bool IsDeleted { get; set; }
     }
 }
